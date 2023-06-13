@@ -18,7 +18,7 @@ export class AppComponent implements AfterViewInit, OnInit {
   title = 'NewsApp';
   public sources: any = [];
   public articles: any = [];
-  public selectedNewsChannel: string = 'Top 10 Trending News!';
+  public selectedNewsChannel: string = 'Trending Tech News';
   @ViewChild(MatSidenav) sideNav!: MatSidenav;
 
   constructor(
