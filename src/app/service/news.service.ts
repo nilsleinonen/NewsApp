@@ -17,7 +17,7 @@ export class NewsService {
 
   initArticles() {
     return this.http.get(
-      'https://newsapi.org/v2/everything?domains=9to5google.com, theverge.com, 9to5mac.com&from=2023-05-13&sortBy=publishedAt&apiKey=' +
+      'https://newsapi.org/v2/everything?domains=9to5google.com,theverge.com,9to5mac.com&from=2023-05-13&sortBy=publishedAt&apiKey=' +
         this.api_key
     );
   }
