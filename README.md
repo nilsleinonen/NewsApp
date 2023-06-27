@@ -1,1 +1,1 @@
-Angular News App
+Angular News App using News API (https://newsapi.org)
